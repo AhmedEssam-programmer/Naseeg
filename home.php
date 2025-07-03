@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home - Naseeg</title>
+    <link rel="stylesheet" href="Style/H.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <a href="#" class="logo">NA<span>SEEG</span></a>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="about.php">About Us</a></li>
+                    <li><a href="contact.php">Contact</a></li>
+                    <li><a href="index.php">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section class="hero">
+        <div class="hero-content">
+            <h1>New Summer Collection</h1>
+            <p>Discover our latest fashion trends for the season. Naseeg styles that combine comfort and sophistication for every occasion.</p>
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+    </section>
+    
+    <section class="new-arrivals">
+        <h2 class="section-title">New Arrivals</h2>
+        <div class="products">
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1542295669297-4d352b042bca?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="Product 1" class="product-img">
+                <div class="product-info">
+                    <h3 class="product-title">Floral Summer Dress</h3>
+                    <p class="product-price">$89.99</p>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1591047139829-d91aecb6caea?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="Product 2" class="product-img">
+                <div class="product-info">
+                    <h3 class="product-title">Classic Denim Jacket</h3>
+                    <p class="product-price">$129.99</p>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1529374255404-311a2a4f1fd9?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="Product 3" class="product-img">
+                <div class="product-info">
+                    <h3 class="product-title">Elegant Evening Gown</h3>
+                    <p class="product-price">$199.99</p>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1520367445093-50dc08a59d9d?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="Product 4" class="product-img">
+                <div class="product-info">
+                    <h3 class="product-title">Casual Streetwear Set</h3>
+                    <p class="product-price">$149.99</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>About Us</h3>
+                <p>Naseeg is a premium fashion brand dedicated to bringing you the latest trends with timeless style.</p>
+            </div>
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Collections</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Customer Service</h3>
+                <ul>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Shipping</a></li>
+                    <li><a href="#">Returns</a></li>
+                    <li><a href="#">Size Guide</a></li>
+                    <li><a href="#">Payment Options</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Contact</h3>
+                <ul>
+                    <li>123 Fashion Avenue</li>
+                    <li>New York, NY 10001</li>
+                    <li>info@Naseeg.com</li>
+                    <li>+1 (555) 123-4567</li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 Naseeg Fashion. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

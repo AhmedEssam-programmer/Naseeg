@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Naseeg</title>
+    <link rel="stylesheet" href="style/main.css">
+</head>
+<body>
+    <form action="register_post.php" method="POST">
+        <div class="main">
+          <h1>Create a Naseeg Account</h1>
+          <?php if(isset($user_error)){echo $user_error;} ?>
+          <input type="text" name="username" id="name" placeholder ="please Enter your username"><br><br>
+          <?php if(isset($email_error)){echo $email_error;} ?>
+          <input type="email" name="email" id="email" placeholder ="please Enter your email"><br><br>
+          <?php if(isset($pass_error)){echo $pass_error;} ?>
+          <input type="password" name="password" id="password" placeholder ="plese Enter your password"><br><br>
+          <button type="submit" name="submit">Register</button><br><br>
+          <h3>or</h3><br>
+          <p>Already have an account? <a id="anchor" href="index.php">Login</a></p>
+        </div>
+    </form>
+</body>
+</html>
