@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="style/main.css">
+</head>
+<body>
+
+   <form action="#" method="POST">
+       <div class="main">
+          <h2>Login to Naseeg</h2>
+          <input type="username" name="username" id="username" placeholder="please Enter username"><br><br>
+          <input type="password" name="password" id="password" placeholder="please Enter password"><br><br>
+          <button type="submit" name="submit" id="submit" >Login</button><br><br>
+          <h3>or</h3><br> 
+          <p>Don't have an account? <a id="anchor" href="register.html">Register</a></p>
+        <br>
+          <a id="home-btn" href="index.html">Back to Home</a>
+        </div>
+   </form>    
+<script>
+document.querySelector('form').addEventListener('submit', function(e){
+  e.preventDefault();
+  alert('This is a demo page. The full version uses PHP and MySQL.');
+});
+</script>
+</body>
+</html>
